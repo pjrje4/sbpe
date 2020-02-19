@@ -101,7 +101,7 @@ class Plugin(PluginBase):
         self.config.option('show_room_id', True, 'bool')
 
         self._initedopts = False
-        self.numbers = util.NumberDict(size=16, color=0xffff80)
+        self.numbers = util.NumberDict(size=32, color=0xffff80)
         self.negnumbers = util.NumberDict(size=16, color=0x8080ff)
         self.roomtxt = util.PlainText(size=16)
 
